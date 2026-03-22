@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero-section">
+    <div class="site-shell">
+        <div class="hero-card">
+            <p class="eyebrow">Om meg</p>
+            <h1>Kyrre Arne Martila</h1>
+            <p class="lead">
+                Jeg er en mann, 40 år, har kone og 3 barn. Jeg jobber til daglig som konsulent IKT i helse i Sør-Varanger kommune.
+            </p>
+            <p>
+                På fritiden liker jeg å holde på med alt som har med data å gjøre. Studerer datateknikk ved UiT nettbasert.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="content-section">
+    <div class="site-shell">
+        <div class="info-grid">
+            <article class="content-card">
+                <h2>Jobb</h2>
+                <p>
+                    Jobben min er spennende, og varierer veldig mye. Det er en blanding mellom systemadmninistrator og superbruker i diverse systemer, som 
+                    elektronisk pasientjournal, velferdsteknologi og alt som vi bruker i helse.
+                </p>
+                <p>
+                    I tillegg jobber med med å administrere Sør-Varanger kommunes nettside og Facebook-side, og kontaktperson for multidoseapoteket. 
+                    I tillegg er jeg ofte prosjektleder eller deltager hver gang det skal innføres noe nytt i helse, som har et snev av teknologi i seg.
+                </p>
+            </article>
+
+            <article class="content-card">
+                <h2>Interesser</h2>
+                <p>
+                    Jeg lærte meg html og css for over 20 år siden, når jeg gikk 2. året på VGS. Men har aldri tatt noen utdanning i data før, alt er selvlært. 
+                    Har også eget enkeltpersonforetak som driver en taxi, men har gjort noen prosjekter som hjemmesider og nettbutikker i Wordpress som jeg har fakturert med mitt ENK.
+                </p>
+                <p>
+                   I det siste har jeg også prøvd meg en del på AI-assistert koding, og har blant annet laget plugins for Wordpress, 
+                   blueprint for mobil app (Flutter) og webapp i React, med Nest.js som backend, og en blueprint for webapplikasjoner i React med 
+                   auth, API, PostgreSQL og egen adminside der forfatter kan redigere Content types.
+                </p>
+                <p>
+                    Hjemme har jeg også en egen server som kjører Proxmox med eget VM for HomeAssistant og applikasjoner til testing. For tilkobling har jeg
+                    SSH, og en Cloudflare tunnell som router trafikk via subdomener, for eksempel ha.domene.no for Home Assistant.
+                </p>
+            </article>
+        </div>
+    </div>
+</section>
+{% endblock %}

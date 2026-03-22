@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero-section hero-section--small">
+    <div class="site-shell">
+        <div class="hero-card">
+            <p class="eyebrow">Om Flask</p>
+            <h1>Hvordan jeg forstår Python og Flask</h1>
+            <p class="lead">
+                Jeg opplever Python og Flask som et enkelt språk i forhold til andre, men har fortsatt mye å lære. Jeg skulle ønske jeg hadde mer tid til å holde på
+                med skole og data generelt, men jobb og 3 barn gjør det litt begrenset.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="content-section">
+    <div class="site-shell">
+        <article class="content-card content-card--wide">
+            <h2>Min forståelse av Python</h2>
+            <p>
+                Python er enkelt fordi det har en enkel syntaks, og den leser koden fra topp til bunn. Men det finnes ikke noe magisk måte å lære det på,
+                annet enn å kode mye og holde på med det.
+            </p>
+
+            <h2>Min forståelse av Flask</h2>
+            <p>
+                Flask er et lettvekts web-rammeverk der man selv bygger opp applikasjonen steg for steg. Jeg synes det er en god måte å lære
+                routing, templates, statiske filer og grunnleggende struktur i webutvikling. En slipper pnpm install og kompilering, som har vært utfordrende 
+                for min del med min første react webapplikasjon. Brukte 3 dager med feilsøking bare på å deploye den til min server.
+            </p>
+
+            <h2>Erfaring</h2>
+            <p>
+                Jeg har ingen erfaring med hverken python eller flask fra før, før jeg begynte på studiet. Men har holdt på med html, css, litt javascript, php osv.
+                Har laget mange nettsider på hobbybasis, og et par som betalte jobber. Begynte først med ren html, før jeg gikk over til Dreamweaver, så Wordpress.
+                I Wordpress har jeg vært innom både WPBakery, Elementor, Bricks og nå i det siste Etch. Med visuelle sidebyggere glemmer en fort hvordan en koder
+                html manuelt, så det må friskes opp. Jeg prøver også å lære meg å jobbe i terminal for en raskere workflow.
+            </p>
+
+            <p>
+                I fremtiden ser jeg for meg at visuelle sidebyggere blir avleggs, og at sider lages av AI, men at sideadministratorer fortsatt trenger 
+                tilgang til et basic CMS der de kan endre på Content types for å publisere sitt innhold på siden. Dette har jeg prøvd å utforske 
+                litt med <a href="https://github.com/kyrre-martila/Content-website-blueprint">Content website blueprint.</a> Tanken er å få en ny kunde, klone repo, 
+                la OpenAI Codex lage siden med en mockup fra Gemini NanoBanana 2, og legge inn alt av tekst, bilder og innhold i Content types som kunden kan redigere
+                selv. Kan hostes selv på server fra Hetzner eller lignende.
+            </p>
+
+        </article>
+    </div>
+</section>
+{% endblock %}
